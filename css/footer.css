@@ -1,0 +1,97 @@
+
+footer{
+	width: 1000px;
+}
+
+.footer_top{
+	height: 100px;
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 24px;
+}
+
+.footer_top dl {
+	float: left;
+	width: 165px;
+}
+
+.footer_top dl dd:first-of-type{
+	margin-top: 17px;
+}
+
+.footer_top dl a {
+	color: black;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.footer_top dl:last-of-type{
+	width: 127px;
+}
+
+.telephone {
+	width: 228px;
+	height: 100px;
+	float: right;
+	background: url(../img/phone.png) no-repeat;
+	padding-left: 50px;
+	position: relative;
+}
+
+.phone_num {
+	width: 113px;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 18px;
+	float: left;
+}
+
+.e-mail {
+	font-size:10px;
+}
+
+.weibo {
+	width: 112px;
+	height: 50px;
+	float: right;
+	font-size: 10px;
+	line-height: 16px;
+	position: relative;
+}
+
+.weibo_box {
+	position: absolute;
+	bottom: -4px;
+	right: 2px;
+}
+
+.weibo_box a {
+	display: block;
+	float: left;
+}
+
+.ewm {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.ewm span {
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.footer_bottom {
+	height: 70px;
+	width: 100%;
+	background-color: #6db6ff;
+	overflow: hidden;
+}
+
+.footer_bottom p{
+	font-size: 12px;
+	margin-top: 43px;
+	text-align: center;
+	
+}

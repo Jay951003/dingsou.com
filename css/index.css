@@ -1,0 +1,209 @@
+	.content_bg1{
+		width: 1000px;
+		background-color: #fafafa;
+		padding-bottom: 10px;
+	}
+	
+	.content_bg2 {
+		width: 1000px;
+		background-color: #FFFFFF;
+		padding-top: 20px;
+	}
+	
+
+.about_us_box {
+	overflow: hidden;
+	background-color: #fafafa;
+}
+/*大标题共同样式*/
+	.about_us,.investment_case,.friend_link {
+		width: 145px;
+		height: 36px;
+		margin: 26px auto;
+		margin-bottom: 20px;
+		border: 1px solid #6db6ff;
+	}
+	
+	.about_us .title,.investment_case .title,.friend_link .title{
+		width: 102px;
+		margin: -15px auto;
+		background-color: #fafafa;
+	}
+	
+	.about_us .title p,.investment_case .title p ,.friend_link .title p{
+		text-align: center;
+	}
+	
+	.about_us p:first-child,
+	.investment_case p:first-child,
+	.friend_link p:first-child{
+		font-size: 24px;
+	}
+	
+	.about_us p:last-child,
+	.investment_case p:last-child,
+	.friend_link p:last-child{
+		font-size: 12px;
+	}
+ /*about_us*/
+	.about_content {
+		padding: 0px 50px;
+		width: 900px;
+	}
+	
+	
+	.about_content ul li {
+		width: 244px;
+		margin-right: 21px;
+		float: left;
+		padding:18px 12px;
+		background-color: #f2f2f2;
+		text-align: center;
+		
+	}
+	
+	.about_content ul li h4 {
+		margin-top: 17px;
+		margin-bottom: 3px;
+		font-weight: 700;
+	}
+	
+	.about_content ul li p {
+		text-align: left;
+		color: #8b8b8b;
+		font-size: 12px;
+		padding-top: 16px;
+		letter-spacing: 3px;
+		word-break: break-all;
+		text-align: justify;	
+	}
+	
+	.about_content ul li:nth-of-type(2){
+		width: 224px;
+		padding-left: 37px;
+		padding-right: 35px;
+	}
+	
+	.about_content ul li:last-of-type{
+		margin-right: 0px;
+	}
+ /*about_us*/
+
+/*投资案例*/
+.investment_content {
+	width: 900px;	
+	padding: 0px 50px 24px;
+}
+
+.investment_content ul {
+	padding-bottom: 22px;
+}
+
+.investment_content ul li{
+	width: 295px;
+	float: left;
+	margin-right: 7px;
+}
+
+.investment_content ul li .img_box {
+	width: 293px;
+	border: 1px solid black;
+}
+
+
+.investment_content ul li img {
+	display: block;
+}
+
+.investment_content ul li p{
+	padding-top: 16px;
+	font-size: 12px;
+	text-align: center;
+}
+
+.investment_content ul li a {
+	display: block;
+	width: 135px;
+	height: 27px;
+	margin: 0 auto;
+	background-color: #6db6ff;
+	color:#FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	line-height: 27px;
+	margin-top: 19px;
+}
+
+
+.investment_content ul li:last-of-type{
+	margin-right: 0px;
+}
+/*投资案例*/
+/*友情链接*/
+	.friend {
+		width: 900px;
+		height: 304px;
+		position: relative;
+		overflow: hidden;
+		background: url(../img/link_bg.png) no-repeat;
+		margin: 0px 50px;
+		margin-bottom: 73px;
+	}
+	
+	 .friend_link .title {
+	 	background-color: 	#64676a;
+	 	color: #FFFFFF;
+	 }
+	
+	.friend .friend_link {
+		margin-top: 26px;
+	}
+
+	.friend_banner {
+		width: 732px;
+		height: 81px;
+		position: absolute;
+		top: 113px;left: 84px;
+	}
+	
+	.friend_banner ul li {
+		width: 222px;
+		float: left;
+		margin-right: 22px;
+	}
+	
+	.friend_banner ul li:last-of-type{
+		margin-right: 0px;
+	}
+	
+	.friend_banner ul li:nth-of-type(2){
+		width: 244px;
+	}
+	
+	.btn {
+		width: 37px;
+		height: 69px;
+		position: absolute;
+		top: 50%;
+		margin-top: -35px;
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	
+	.btn:hover{
+		opacity: 1;
+	}
+	
+	.left {
+		background: url(../img/left.png) no-repeat;
+		left: 7px;
+	}
+	
+	.right{
+		right: 10px;
+		background: url(../img/right.png) no-repeat;
+	}
+
+/*友情链接*/
+	
+/*内容*/

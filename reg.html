@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>注册</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	</head>
+	<body>
+			<!--头部 Start-->
+				<header class="bc">
+						<!--logo部分 S-->
+						<a href="#" class="logo">
+							<img src="img/logo.png"/>
+						</a>
+						<!--logo E部分-->
+						<!--导航部分 S-->
+						<ul class="nav">
+							<li>
+								<a href="#">首页</a>
+								<span class="underline"></span>
+							</li>
+							<li>
+								<a href="#">关于鼎搜</a>
+								<span class="underline"></span>
+							</li>
+							<li>
+								<a href="#">鼎搜服务</a>
+								<span class="underline"></span>
+							</li>
+							<li>
+								<a href="#">鼎搜动态</a>
+								<span class="underline"></span>
+							</li>
+							<li>
+								<a href="#">鼎搜诚聘</a>
+								<span class="underline"></span>
+							</li>
+							<li>
+								<a href="#">鼎搜公益</a>
+								<span class="underline"></span>
+							</li>
+						</ul>
+						<div class="search_box">
+							<input type="text" />
+							<button></button>
+						</div>
+						<!--导航部分 E-->
+				</header>
+				<!--banner-->
+				<section class="banner bc">
+						<ul>
+							<li><a href="#"><img src="img/banner.png"/></a></li>
+							<li></li>
+							<li></li>
+							<p class="cb"></p>
+						</ul>
+				</section>
+				<!--banner-->
+			<!--头部 End-->
+				
+			<!--注册 S-->
+				<div class="reg bc">
+					<div class="transfer_box">
+						<div class="border_bt">
+							<div class="transfer_title">
+								<p class="transfer_cn">我要转让</p>
+								<p class="transfer_en">WOYAOZHUANRANG</p>
+							</div>
+						</div>
+					</div>
+					<div class="input_box">
+						<form action="#">
+							<table width="652">
+								<tr>
+									<td colspan="3" class="tips">(带 * 号的表示为必填项目，用户名必须大于3位小于20位，密码必须大于3位)</td>
+								</tr>
+								<tr>
+									<td>用户名 :</td>
+									<td>
+										<input type="text" name="username" id="username" value="" />
+									</td>
+									<td><span class="must">*</span> (可以使用中文，但禁止除[@][.]以外的特殊符号)</td>
+								</tr>
+								<tr>
+									<td>公司名称 :</td>
+									<td>
+										<input type="text" name="cp_name" id="cp_name" value="" />
+									</td>
+									<td><span class="must">*</span></td>
+								</tr>
+								<tr>
+									<td>登录密码 :</td>
+									<td>
+										<input type="password" name="psw" id="psw" value="" />
+									</td>
+									<td><span class="must">*</span></td>
+								</tr>
+								<tr>
+									<td>确认密码 :</td>
+									<td>
+										<input type="password" name="re_psw" id="re_psw" value="" />
+									</td>
+									<td><span class="must psw_no">* ×两次输入密码不一致</span></td>
+								</tr>
+								<tr>
+									<td>电子邮件 :</td>
+									<td>
+										<input type="email" name="email" id="email" value="" />
+									</td>
+									<td><span class="must">* (每个电子邮邮箱只能注册一个帐号)</span></td>
+								</tr>
+								<tr>
+									<td>安全问题 :</td>
+									<td colspan="2">
+										<select name="qusetion">
+											<option value="#">没有安全提示问题</option>
+										</select>
+										<span class="frg_psw">(忘记密码时重设密码用)</span>
+									</td>
+								</tr>
+								<tr>
+									<td>问题答案 :</td>
+									<td><input type="text" name="ans" id="ans" value="" /></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>性别 :</td>
+									<td>
+										<input type="radio" name="sex" id="sex" value="man" />
+										<label for="man">男</label>
+										<input type="radio" name="sex" id="sex" value="wom" />
+										<label for="wom">女</label>
+										<input type="radio" name="sex" id="sex" value="baomi" />
+										<label for="保密">保密</label>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>验证码 :</td>
+									<td>
+										<input type="text" name="yzm" id="yzm" value="" /><img src="img/yzm.png"/><span>看不清?</span>
+										<span class="change">点击更换</span>
+									</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td colspan="3" class="protocol_box">
+										<span>会员注册协议 :</span>
+										<p class="protocol">
+											1、在本站注册的会员，必须遵守《互联网电子公告服务管理规定》，不得在本站发表诽谤他人，侵犯他人隐私，侵犯他人知识产权，传播病毒，政治言论，商业讯息等信息。<br />
+											2、在所有在本站发表的文章，本站都具有最终编辑权，并且保留用于印刷或向第三方发表的权利，如果你的资料不齐全，我们将有权不作任何通知使用你在本站发布的作品。<br />
+											3、在登记过程中，您将选择注册名和密码。注册名的选择应遵守法律法规及社会公德。您必须对您的密码保密，您将对您注册名和密码下发生的所有活动承担责任。
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										<label class="cheakBox"><input type="checkbox" name="dagou" id="dagou"  checked="checked"/>我已阅读并完全接受服务协议</label>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">
+										<input type="submit" name="submit" class="submit_btn" value="提交"/>
+									</td>
+								</tr>
+							</table>
+						</form>	
+					</div>
+				</div> 
+			<!--注册 E-->
+			
+			<!--尾部 Start-->
+				<footer class="bc">
+					<div class="footer_top">
+						<dl>
+							<td>简介</td>
+							<dd><a href="#">鼎搜网简介</a></dd>
+							<dd><a href="#">鼎搜服务</a></dd>
+							<dd><a href="#">会员身份实名认证</a></dd>
+						</dl>
+						<dl>
+							<td>帮助</td>
+							<dd><a href="">用户注册</a></dd>
+							<dd><a href="">关于鼎搜</a></dd>
+							<dd><a href="">在线咨询</a></dd>
+						</dl>
+						<dl>
+							<td>共赢</td>
+							<dd><a href="">网站合作</a></dd>
+							<dd><a href="">用户协议</a></dd>
+							<dd><a href="">会员身份实名认证</a></dd>
+						</dl>
+						<dl>
+							<td>导航</td>
+							<dd><a href="">地图首页</a></dd>
+							<dd><a href="">职能分类</a></dd>
+							<dd><a href="">企业名录</a></dd>
+						</dl>
+						<div class="telephone">
+							<div class="phone_num">
+								<p>全国服务热线</p>
+								<p>440-880-1779</p>
+								<p class="e-mail">邮箱:dinsoo@163.com</p>
+							</div> 
+							<div class="weibo">
+								<p>投诉电话：4408801779</p>
+								<p>周一至周六：9:20-20:00</p>
+								<div class="weibo_box">
+									<a href="#"><img src="img/xlang.png"/></a>
+									<a href="#"><img src="img/qq.png"/></a>
+								</div>
+							</div>
+								<div class="ewm">
+									<img src="img/ewm.png"/>
+									<span>订阅信息</span>
+								</div>
+						</div>
+					</div>
+					
+					<div class="footer_bottom">
+						<p>Copyright &copy;2015 鼎搜网(www.dinsoo.com) 版权所有</p>
+					</div>
+				</footer>
+			<!--尾部 End-->
+	</body>
+</html>
